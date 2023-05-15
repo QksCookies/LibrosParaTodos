@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.todo.controller.GestionLibrosTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.03 s <<< FAILURE! - in com.todo.controller.GestionLibrosTest
+agregarLibro  Time elapsed: 0.022 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.todo.controller.GestionLibros.agregarLibro(com.todo.model.Libro)" because "this.gestionLibros" is null
+	at com.todo.controller.GestionLibrosTest.agregarLibro(GestionLibrosTest.java:29)
+
